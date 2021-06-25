@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3C1786266013D200113DD2 /* MathStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C1785266013D200113DD2 /* MathStuff.swift */; };
+		FE85B4E52660C76300DF1BAF /* OtherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85B4E42660C76300DF1BAF /* OtherTests.swift */; };
+		FE85B4F22660EB5800DF1BAF /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = FE85B4F12660EB5800DF1BAF /* weather.json */; };
 		FE86ED88265F9BEB00299BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE86ED87265F9BEB00299BED /* AppDelegate.swift */; };
 		FE86ED8A265F9BEB00299BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE86ED89265F9BEB00299BED /* SceneDelegate.swift */; };
 		FE86ED8C265F9BEB00299BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE86ED8B265F9BEB00299BED /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE3C1785266013D200113DD2 /* MathStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStuff.swift; sourceTree = "<group>"; };
+		FE85B4E42660C76300DF1BAF /* OtherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTests.swift; sourceTree = "<group>"; };
+		FE85B4F12660EB5800DF1BAF /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
 		FE86ED84265F9BEB00299BED /* unitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE86ED87265F9BEB00299BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE86ED89265F9BEB00299BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 				FE86ED90265F9BEC00299BED /* Assets.xcassets */,
 				FE86ED92265F9BEC00299BED /* LaunchScreen.storyboard */,
 				FE86ED95265F9BEC00299BED /* Info.plist */,
+				FE3C1785266013D200113DD2 /* MathStuff.swift */,
 			);
 			path = unitTest;
 			sourceTree = "<group>";
@@ -113,8 +120,10 @@
 		FE86ED9D265F9BEC00299BED /* unitTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				FE85B4F12660EB5800DF1BAF /* weather.json */,
 				FE86ED9E265F9BEC00299BED /* unitTestTests.swift */,
 				FE86EDA0265F9BEC00299BED /* Info.plist */,
+				FE85B4E42660C76300DF1BAF /* OtherTests.swift */,
 			);
 			path = unitTestTests;
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE85B4F22660EB5800DF1BAF /* weather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE3C1786266013D200113DD2 /* MathStuff.swift in Sources */,
 				FE86ED8C265F9BEB00299BED /* ViewController.swift in Sources */,
 				FE86ED88265F9BEB00299BED /* AppDelegate.swift in Sources */,
 				FE86ED8A265F9BEB00299BED /* SceneDelegate.swift in Sources */,
@@ -268,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE85B4E52660C76300DF1BAF /* OtherTests.swift in Sources */,
 				FE86ED9F265F9BEC00299BED /* unitTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
