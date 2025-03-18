@@ -1,4 +1,5 @@
 import Foundation
+import Alamofire
 
 typealias LoginSceneInteractorInput = LoginSceneViewControllerOutput
 

@@ -1,0 +1,18 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Runs unit tests"
+    lane :unit_testing do
+        scan(
+            workspace: "./unitTest.xcworkspace",
+            device: "iPhone 16",
+            output_directory: "fastlane/unit_test_output",
+            code_coverage: true,
+            result_bundle: true
+        )
+        xcov(
+            is_swift_package: true,
+            output_directory: "fastlane/xcov_output"
+        )
+    end
+end

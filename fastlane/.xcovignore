@@ -1,0 +1,8 @@
+- LoginSceneRouter.swift
+- NetworkSession.swift
+- LoginSceneConfigurator.swift
+- AuthService.swift
+- NetworkManager.swift
+- LoginSceneAuthWorker.swift
+- LoginScenePresenter.swift
+- SceneDelegate.swift
